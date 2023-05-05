@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi friday",
+        "Hey Buddy",
+        "How are you bro",
+        "hey friday are you online?",
+        "Hello friday"
+      ],
+      "responses": [
+        "welecome back sir",
+        "Hello,sir",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "Good morning sir!",
+        "good morning boss, Hope y",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "playing",
+      "patterns": [
+        "play songs",
+        "jarvis can you play a song for me in youtube",
+        "sing a song"
+      ]
+    },
+    {
+      "tag": "dataandtime",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "",
+        ""
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "doomsday",
+      "patterns": [
+        "initialize Doomsday",
+        "initiate doomsday",
+        "initiate doomsday protocol"
+      ],
+      "responses": [
+        "initializing doomsday protocol",
+        "initialising doomsday protocol"
+      ]
+    }
+  ]
+}
